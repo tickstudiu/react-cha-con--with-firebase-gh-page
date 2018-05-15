@@ -1,0 +1,25 @@
+{
+  "name": "react-cha-con--with-firebase-gh-page",
+  "version": "0.1.0",
+  "homepage": "http://tickstudiu.github.io/react-cha-con--with-firebase-gh-page/",
+  "private": true,
+  "dependencies": {
+    "antd": "^3.5.2",
+    "bootstrap": "^4.1.1",
+    "gh-pages": "^1.1.0",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-route": "^1.0.3",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.1.4",
+    "reactstrap": "^6.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "eject": "react-scripts eject"
+  }
+}
